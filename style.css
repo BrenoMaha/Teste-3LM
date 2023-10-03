@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dadada !important;
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  margin-right: 20px;
+  color: #ee0c0c;
+}
+
+.navbar-toggler {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover{
+  background-color: #7a7a7a;
+  transition: color 0.3s ease ; 
+  border-radius: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #0ca170;
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+  transition: 2s all;
+}
+
+.navbar-brand {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+
+.navbar-red:hover .wrapper {
+  clip-path: polygon(90% 0, 70% 0, 120% 70%, 100% 100%, 80% 100%);
+}
+
+
+.navbar-red {
+  background-color: rgb(0, 0, 0);
+  color: #000000;
+}
+
+.all-show {
+  z-index: 50;
+}
+
+
+#cadastrarFuncionario, #cadastrarCargo, #excluirFuncionario, #excluirCargo,#alterarFuncionario, #gerarRelatorio{
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.container{
+  display: none;
+
+}
